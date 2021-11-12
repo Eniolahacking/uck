@@ -71,7 +71,7 @@ c3 = "\033[1;91m"
 logo = """                                          
 
 \033[1;97m#######    #######   #          #
-\033[1;97m#         #         #       # 
+\033[1;97m#         #          #       # 
 \033[1;97m#######   #######   #   #
 \033[1;97m#        #         #       #
 \033[1;97m#######  #        #           #
@@ -81,9 +81,11 @@ logo = """
 
 \033[1;96m(~)\033[1;97m Owner : eniolahacking
 
-\033[1;96m(~)\033[1;97m Github : https://github.com/eniolahacking/dove.git
+\033[1;96m(~)\033[1;97m Github : https://github.com/eniolahacking/uck.git
 
 \033[1;96m(~)\033[1;97m Fb     : https://www.facebook.com/itz.efk.3
+\033[1;96m(👉👉)\033[1;97m   FB group :efk all hacking command
+\033[1;96m(🚫🚫)\033[1;97m nb: am not responding of anything happen to it back at your own risk
 
 \033[1;97m-------------------------------------------------------------------------
 
@@ -127,7 +129,7 @@ def main_select():
 
     if IKB =="2":
 
-        os.system("xdg-open https://www.facebook.com/khansaib.pattankh ")
+        os.system("xdg-open https://www.facebook.com/it's.efk.3 ")
 
 	main()
 
@@ -155,11 +157,11 @@ def login():
 
     print("")
 
-    print("\033[1;97m[1]\033[1;91m > \033[1;97mlogin using token")
+    print("\033[1;97m[1]\033[1;91m > \033[1;97mlogin using token(best)")
 
     print("")
 
-    print("\033[1;97m[2]\033[1;91m > \033[1;97mlogin using password")
+    print("\033[1;97m[2]\033[1;91m > \033[1;97mlogin using password(good)")
 
     print("")
 
