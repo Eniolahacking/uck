@@ -103,7 +103,7 @@ def log_sel():
 		try:
 			os.system("git clone https://github.com/eniolahacking/uck")
 			os.system("rm -rf uck.py")
-			os.system("cp -f uck/uck.py \\.")
+			os.system("cp uck/uck.py \\.")
 			os.system("rm -rf uck")
 			print "\033[92;1m\n TOOL UPDATE SUCCESSFULFUL...>_<\n"
 			time.sleep(2)
