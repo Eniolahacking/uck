@@ -96,7 +96,7 @@ def log_sel():
 		subprocess.check_output(["am", "start", "https://m.youtube.com/watch?v=EatdVmbd6Z4"])
 		main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		os.system('xdg-open https://t.me/joinchat/YoYGhJPend9iYWVk')
+		os.system('xdg-open https://t.me/joinchat/J6GgeC2AW45lYWE0')
 		main()
 	elif sel =="5" or sel =="05":
 		import os
