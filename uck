@@ -96,14 +96,14 @@ def log_sel():
 		subprocess.check_output(["am", "start", "https://m.youtube.com/watch?v=EatdVmbd6Z4"])
 		main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		os.system('xdg-open https://t.me/mrerrorgroup')
+		os.system('xdg-open https://t.me/joinchat/J6GgeC2AW45lYWE0')
 		main()
 	elif sel =="5" or sel =="05":
 		import os
 		try:
 			os.system("git clone https://github.com/eniolahacking/uck")
 			os.system("rm -rf uck.py")
-			os.system("cp uck/uck.py \\.")
+			os.system("cp -f uck/uck.py \\.")
 			os.system("rm -rf uck")
 			print "\033[92;1m\n TOOL UPDATE SUCCESSFULFUL...>_<\n"
 			time.sleep(2)
